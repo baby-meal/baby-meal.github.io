@@ -1,0 +1,38 @@
+h1, h2, p, section {
+    margin: 0px;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.5;
+    margin: 20px;
+}
+
+.centered {
+    text-align: center
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+header {
+    font-size: 150%;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+      background-color: lightblue;
+      width: 90%;
+    }
+  }
